@@ -6,18 +6,19 @@ import FooterBottom from './FooterBottom';
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden bg-cream px-6 py-6 md:px-12 md:py-8">
+    <footer className="relative overflow-hidden bg-cream px-6 py-2 md:px-12 md:py-2">
       {/* Watermark decoration */}
       <div
-        className="pointer-events-none absolute inset-x-0 bottom-0 flex justify-center"
+        className="pointer-events-none absolute inset-x-0 bottom-20  flex justify-center"
         aria-hidden="true"
       >
         <span
           className="select-none font-serif leading-none text-navy"
-          style={{ fontSize: '300px', fontWeight: 300, opacity: 0.03 }}
+          style={{ fontSize: '150px', fontWeight: 300, opacity: 0.03 }}
         >
           MAGNUM
-      
+          EDITIONS
+
         </span>
       </div>
 
